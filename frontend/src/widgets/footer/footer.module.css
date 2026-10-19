@@ -1,0 +1,9 @@
+.footer { background: #fff; padding: 80px 0 30px; border-top: 1px solid #eee; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-bottom: 50px; }
+.colTitle { font-size: 18px; font-weight: 800; margin-bottom: 25px; color: var(--accent); }
+.link { display: block; font-size: 15px; color: var(--text-muted); margin-bottom: 15px; font-weight: 500; }
+.link:hover { color: var(--dark); }
+.iconText { display: flex; align-items: flex-start; gap: 12px; font-size: 15px; color: var(--text-muted); margin-bottom: 15px; font-weight: 500; }
+.iconText img { width: 18px; margin-top: 3px; filter: brightness(0) opacity(0.6); }
+.copyright { text-align: center; font-size: 14px; color: #999; padding-top: 30px; border-top: 1px solid #eee; }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr 1fr; } }

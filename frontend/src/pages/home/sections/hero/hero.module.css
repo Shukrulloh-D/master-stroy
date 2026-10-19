@@ -1,0 +1,18 @@
+.hero { 
+  height: 600px;
+  background-size: cover; 
+  background-position: center; 
+  position: relative; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  color: #fff; 
+}
+.overlay { position: absolute; inset: 0; background: rgba(50, 50, 50, 0.4); }
+.content { position: relative; z-index: 1; max-width: 850px; padding: 0 20px; }
+.title { font-size: 48px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
+.desc { font-size: 15px; margin-bottom: 35px; opacity: 0.9; line-height: 1.6; }
+.btn { background: var(--accent); color: #fff; padding: 16px 50px; border-radius: 30px; font-weight: 700; font-size: 16px; transition: 0.3s; display: inline-block; }
+.btn:hover { background: var(--accent-hover); }
+@media (max-width: 768px) { .title { font-size: 32px; } }

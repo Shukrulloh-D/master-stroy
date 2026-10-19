@@ -1,0 +1,25 @@
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 2000; backdrop-filter: blur(3px); opacity: 0; animation: fadeIn 0.3s forwards; }
+@keyframes fadeIn { to { opacity: 1; } }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: 420px; background: #fff; z-index: 2001; padding: 30px; display: flex; flex-direction: column; box-shadow: -10px 0 30px rgba(0,0,0,0.1); transform: translateX(100%); animation: slideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+@keyframes slideIn { to { transform: translateX(0); } }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+.title { font-size: 24px; font-weight: 800; }
+.close { font-size: 28px; color: #999; }
+.close:hover { color: var(--accent); transform: rotate(90deg); }
+.list { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; padding-right: 10px; }
+.list::-webkit-scrollbar { width: 6px; }
+.list::-webkit-scrollbar-thumb { background: #ddd; border-radius: 10px; }
+.item { display: flex; gap: 15px; border-bottom: 1px solid #f5f5f5; padding-bottom: 15px; animation: fadeUp 0.3s ease-out; }
+.itemImg { width: 80px; height: 80px; object-fit: contain; background: #f9f9f9; border-radius: 10px; padding: 5px; }
+.itemInfo { flex: 1; }
+.itemTitle { font-size: 14px; font-weight: 700; }
+.itemColor { font-size: 12px; color: #777; margin-top: 2px; }
+.itemPrice { font-size: 15px; font-weight: 700; color: var(--accent); margin-top: 5px; }
+.removeBtn { font-size: 12px; color: #ff4444; margin-top: 5px; }
+.removeBtn:hover { text-decoration: underline; }
+.empty { text-align: center; color: #999; margin-top: 50px; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.emptyIcon { font-size: 50px; opacity: 0.5; }
+.footer { border-top: 1px solid #eee; padding-top: 20px; margin-top: 20px; }
+.total { display: flex; justify-content: space-between; font-size: 20px; font-weight: 800; margin-bottom: 20px; }
+.checkoutBtn { width: 100%; background: var(--accent); color: #fff; padding: 16px; border-radius: 10px; font-weight: 700; font-size: 16px; border: 2px solid var(--accent); }
+.checkoutBtn:hover { background: transparent; color: var(--accent); }

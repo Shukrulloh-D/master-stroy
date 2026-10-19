@@ -1,0 +1,6 @@
+.section { padding: 120px 0; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px; margin-bottom: 50px; }
+.btnWrap { text-align: center; }
+.btn { background: var(--accent); color: #fff; padding: 16px 50px; border-radius: 30px; font-weight: 700; font-size: 16px; transition: 0.3s; border: 2px solid var(--accent); }
+.btn:hover { background: transparent; color: var(--accent); }
+@media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }

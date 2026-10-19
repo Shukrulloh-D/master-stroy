@@ -1,0 +1,37 @@
+{
+  "categories": [
+    { "id": 1, "name": "Прессованная плитка", "image": "/images/catalog/cat-1.png" },
+    { "id": 2, "name": "Вибролитая плитка", "image": "/images/catalog/cat-2.png" },
+    { "id": 3, "name": "Садовый бордюр", "image": "/images/catalog/cat-3.png" },
+    { "id": 4, "name": "Дорожный бордюр", "image": "/images/catalog/cat-4.png" },
+    { "id": 5, "name": "Строительные блоки", "image": "/images/catalog/cat-5.png" },
+    { "id": 6, "name": "Фасадная плитка", "image": "/images/catalog/cat-6.png" },
+    { "id": 7, "name": "Водостоки тротуарные", "image": "/images/catalog/cat-7.png" },
+    { "id": 8, "name": "Крышки на столбы", "image": "/images/catalog/cat-8.png" }
+  ],
+  "products": [
+    { "id": 1, "name": "Шестигранник", "size": "250x220x70мм", "quantity": "21 шт/кв.м", "image": "/images/top-products/prod-1.png", "colors": [{ "name": "Серый", "price": 470, "hex": "#808080" }, { "name": "Красный", "price": 530, "hex": "#a52a2a" }, { "name": "Коричневый", "price": 590, "hex": "#8b4513" }, { "name": "Желтый", "price": 700, "hex": "#ffd700" }] },
+    { "id": 2, "name": "Брусчатка 200x100x50", "size": "200x100x50мм", "quantity": "50 шт/кв.м", "image": "/images/top-products/prod-2.png", "colors": [{ "name": "Серый", "price": 440, "hex": "#808080" }, { "name": "Красный", "price": 500, "hex": "#a52a2a" }, { "name": "Коричневый", "price": 550, "hex": "#8b4513" }, { "name": "Желтый", "price": 700, "hex": "#ffd700" }] },
+    { "id": 3, "name": "Плитка квадрат 330x330x60", "size": "330x330x60мм", "quantity": "9 шт/кв.м", "image": "/images/top-products/prod-3.png", "colors": [{ "name": "Серый", "price": 440, "hex": "#808080" }, { "name": "Красный", "price": 500, "hex": "#a52a2a" }, { "name": "Коричневый", "price": 550, "hex": "#8b4513" }, { "name": "Желтый", "price": 700, "hex": "#ffd700" }] },
+    { "id": 4, "name": "Катушка 250x160x60", "size": "250x160x60мм", "quantity": "30 шт/кв.м", "image": "/images/top-products/prod-4.png", "colors": [{ "name": "Серый", "price": 440, "hex": "#808080" }, { "name": "Красный", "price": 500, "hex": "#a52a2a" }, { "name": "Коричневый", "price": 550, "hex": "#8b4513" }] },
+    { "id": 5, "name": "Кирпичик 250x125x60", "size": "250x125x60мм", "quantity": "32 шт/кв.м", "image": "/images/top-products/prod-5.png", "colors": [{ "name": "Серый", "price": 440, "hex": "#808080" }, { "name": "Красный", "price": 500, "hex": "#a52a2a" }] },
+    { "id": 6, "name": "Волна 250x125x60", "size": "250x125x60мм", "quantity": "32/40 шт/кв.м", "image": "/images/top-products/prod-6.png", "colors": [{ "name": "Серый", "price": 440, "hex": "#808080" }, { "name": "Красный", "price": 500, "hex": "#a52a2a" }, { "name": "Коричневый", "price": 550, "hex": "#8b4513" }] }
+  ],
+  "works": [
+    "/images/our-works/work-1.png", "/images/our-works/work-2.png", "/images/our-works/work-3.png", "/images/our-works/work-4.png",
+    "/images/our-works/work-5.png", "/images/our-works/work-6.png", "/images/our-works/work-7.png", "/images/our-works/work-8.png"
+  ],
+  "productionFeatures": [
+    { "id": 1, "icon": "/images/production-video/icon-truck.png", "title": "Доставка и разгрузка плитки", "text": "краном-манипулятором" },
+    { "id": 2, "icon": "/images/production-video/icon-bricks.png", "title": "Множество видов тротуарной", "text": "плитки различной формы и фактуры" },
+    { "id": 3, "icon": "/images/production-video/icon-guarantee.png", "title": "Весь товар сертифицирован!", "text": "Официальная гарантия" }
+  ],
+  "advantages": [
+    { "id": 1, "icon": "/images/advantages/adv-1.png", "title": "Тротуарная плитка от производителя в широком ассортименте", "text": "На сайте вы сможете подобрать прессованную, вибролитую или фасадную плитку, блоки и бордюры, водостоки, крышки на столбы и многие другие." },
+    { "id": 2, "icon": "/images/advantages/adv-2.png", "title": "Высокий уровень сервиса обслуживания", "text": "Наши менеджеры всегда вежливы и профессиональны в работе с клиентами, они готовы помочь с выбором нужной модели и ответить на все вопросы клиента." },
+    { "id": 3, "icon": "/images/advantages/adv-3.png", "title": "Услуги команды опытных специалистов по монтажу", "text": "Наша компания предлагает услуги профессиональной укладки и другие работы по благоустройству частных территорий." },
+    { "id": 4, "icon": "/images/advantages/adv-4.png", "title": "Быстрая и удобная доставка", "text": "Развоз заказов осуществляется при помощи спецтехники – манипулятора, облегчающего процесс погрузки и разгрузки." },
+    { "id": 5, "icon": "/images/advantages/adv-5.png", "title": "Демократичная стоимость", "text": "Если вы хотите подобрать и купить тротуарную плитку по наиболее выгодной цене в регионе - вам однозначно в «Мастер Строй»!" },
+    { "id": 6, "icon": "/images/advantages/adv-6.png", "title": "Бесперебойный контроль качества продукции", "text": "Все материалы соответствуют техническим нормам ГОСТа, а тщательный контроль позволяет исключить риск попадания брака в партию." }
+  ]
+}

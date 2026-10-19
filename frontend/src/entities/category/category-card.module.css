@@ -1,0 +1,9 @@
+.card { 
+  background: #fff; border-radius: 20px; padding: 20px; text-align: center; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04); border: 1px solid #f3f3f3;
+  aspect-ratio: 1 / 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transition: transform 0.2s; cursor: pointer;
+}
+.card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+.image { height: 40%; object-fit: contain; margin-bottom: 15px; }
+.name { font-size: 14px; font-weight: 700; color: var(--text); }

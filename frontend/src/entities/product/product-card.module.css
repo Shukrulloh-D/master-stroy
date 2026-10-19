@@ -1,0 +1,20 @@
+.card { display: flex; background: #fff; border-radius: 20px; overflow: hidden; height: 260px; box-shadow: var(--shadow); transition: transform 0.3s; }
+.card:hover { transform: translateY(-5px); }
+.imageWrap { flex: 1; padding: 20px; display: flex; align-items: center; justify-content: center; background: #fff; position: relative; cursor: pointer; }
+.image { max-height: 100%; max-width: 100%; object-fit: contain; transition: transform 0.3s; }
+.imageWrap:hover .image { transform: scale(1.1); }
+.quickViewBadge { position: absolute; bottom: 10px; background: rgba(0,0,0,0.6); color: #fff; font-size: 10px; padding: 4px 10px; border-radius: 20px; opacity: 0; transition: 0.3s; }
+.imageWrap:hover .quickViewBadge { opacity: 1; }
+.info { flex: 1; background: #333; color: #fff; padding: 20px; display: flex; flex-direction: column; }
+.title { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+.specs { font-size: 11px; color: #aaa; margin-bottom: 2px; }
+.colorsList { margin-top: 10px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
+.colorRow { display: flex; justify-content: space-between; align-items: center; font-size: 11px; cursor: pointer; padding: 3px; border-radius: 5px; transition: 0.2s; }
+.colorRow:hover { background: rgba(255,255,255,0.1); }
+.colorLeft { display: flex; align-items: center; gap: 8px; }
+.colorDot { width: 10px; height: 10px; border-radius: 2px; }
+.bottom { margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; padding-top: 10px; }
+.price { font-weight: 700; font-size: 14px; }
+.addBtn { background: var(--accent); color: #fff; width: 36px; height: 36px; border-radius: 50%; font-size: 20px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.addBtn:hover { transform: scale(1.1); background: var(--accent-hover); }
+.addBtnSuccess { background: #34a853 !important; transform: scale(1.1); }
