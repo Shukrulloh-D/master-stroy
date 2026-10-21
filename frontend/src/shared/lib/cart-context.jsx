@@ -14,7 +14,7 @@ export function CartProvider({ children }) {
       }
       return [...prev, { ...product, color, qty: 1 }];
     });
-    setIsOpen(true); // Открываем корзину при добавлении
+    setIsOpen(true);
   };
 
   const removeFromCart = (id, colorName) => setCart(prev => prev.filter(item => !(item.id === id && item.color.name === colorName)));

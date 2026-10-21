@@ -33,13 +33,14 @@ export function DeliveryMap() {
       
                                          {/* Ряд 3 */}
       <section className={styles.mapContainer} aria-label="Карта проезда">
-        <iframe 
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3A2a9a1c0e6b8f4b7e6f5d4c3b2a1&source=constructor" 
+        <img 
+    src="/images/map/map.png"
           title="Интерактивная карта доставки"
           loading="lazy"
           className={styles.mapIframe}
-        ></iframe>
+        ></img>
       </section>
     </section>
   );
 }
+ {/*https://yandex.ru/map-widget/v1/?um=constructor%3A2a9a1c0e6b8f4b7e6f5d4c3b2a1&source=constructor*/}

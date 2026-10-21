@@ -32,10 +32,10 @@ export function CallbackForm() {
     <form onSubmit={handleSubmit}>
       <h3 className={modalStyles.title}>Заказать звонок</h3>
       <div className={modalStyles.formGroup}>
-        <input type="text" placeholder="Ваше имя" className={modalStyles.input} value={name} onChange={e => setName(e.target.value)} required />
+        <input type="text" placeholder="Введите ваше имя" className={modalStyles.input} value={name} onChange={e => setName(e.target.value)} required />
       </div>
       <div className={modalStyles.formGroup}>
-        <input type="tel" placeholder="Ваш телефон" className={modalStyles.input} value={phone} onChange={e => setPhone(e.target.value)} required />
+        <input type="tel" placeholder="Введите ваш номер телефона" className={modalStyles.input} value={phone} onChange={e => setPhone(e.target.value)} required />
       </div>
       <label className={modalStyles.checkbox}>
         <input type="checkbox" required defaultChecked />
